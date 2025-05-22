@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Knowster – Trust Home Repair</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9fb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #fff;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      color: #2e6fdb;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      color: #333;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: linear-gradient(to right, #e6f0ff, #ffffff);
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 2rem;
+    }
+    .hero input[type="text"] {
+      padding: 1rem;
+      width: 60%;
+      max-width: 500px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    .hero button {
+      padding: 1rem 2rem;
+      margin-left: 1rem;
+      background-color: #2e6fdb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #2e6fdb;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .feature-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+    .feature-card h4 {
+      margin-bottom: 0.5rem;
+      font-size: 1.25rem;
+      color: #333;
+    }
+    .feature-card p {
+      font-size: 1rem;
+      color: #666;
+    }
+    footer {
+      background-color: #f1f3f5;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Knowster</h1>
+      <nav>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Know Who You're Hiring</h2>
+    <p>Instant background insights and trust scores for local home repair and blue-collar businesses.</p>
+    <input type="text" placeholder="Enter business name or location..." />
+    <button>Search</button>
+  </section>
+
+  <section class="section" id="how-it-works">
+    <h3>How Knowster Works</h3>
+    <div class="features">
+      <div class="feature-card">
+        <h4>1. Search a Business</h4>
+        <p>Enter a name or area and Knowster pulls public info, reviews, and more.</p>
+      </div>
+      <div class="feature-card">
+        <h4>2. AI-Powered Analysis</h4>
+        <p>We analyze history, complaints, and ratings to produce a Trust Score.</p>
+      </div>
+      <div class="feature-card">
+        <h4>3. Make Informed Choices</h4>
+        <p>Use Knowster’s insights to decide who’s trustworthy and who’s not.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <h3>Features</h3>
+    <div class="features">
+      <div class="feature-card">
+        <h4>Trust Score Visuals</h4>
+        <p>Clear scores with visual cues to help you assess businesses at a glance.</p>
+      </div>
+      <div class="feature-card">
+        <h4>Conversational Assistant</h4>
+        <p>Ask our AI anything about a business, their history, or local trends.</p>
+      </div>
+      <div class="feature-card">
+        <h4>Smart Booking</h4>
+        <p>One-click bookings with verified pros, backed by Knowster insights.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Contact us at support@knowster.ai • Knowster &copy; 2025</p>
+  </footer>
+</body>
+</html>
